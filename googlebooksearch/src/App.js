@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/saved/:id" component={SaveBooks} />
           <Route component={NoMatch} /> 
         </Switch>
-        <Footer />
+        <Footer/>
       </div>
     </Router>
   );
