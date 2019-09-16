@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.static(__dirname + "/public"));
 
 // Mongo DB Connection 
-var DB_Connect = process.env.MONGODB_URI || "mongodb://localhost/booksApp"; 
+var DB_Connect = process.env.MONGODB_URI || "mongodb://localhost/googlebookssearch"; 
 
 mongoose.connect(DB_Connect, { useNewUrlParser: true }, function (err) {
     if (err) {
